@@ -1,2 +1,7 @@
 # awg-rfsoc
-An arbitrary waveform generator with the Real Digital RFSoC board
+An arbitrary waveform generator with the Real Digital RFSoC board.
+The FPGA on the device can be loaded with $2^19$ points and it can generate arbitrary waveforms at a sampling rate of 9.34 GSps.
+The jupyter notebook included here provides some information on how the arbitrary wavefrom generation is implemented in the FPGA and how it can be programmed.
+The block diagram of the system is shown in design_2.pdf.
+To use it copy all the files onto a folder in the RFSoC device and execute the jupyter notebook.
+
