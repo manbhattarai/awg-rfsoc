@@ -1,1 +1,2 @@
+Simulation results have been added. The simulation verilog testbench generates all the relevant input signals to the awg_rfsoc module, as is done in the PYNQ notebook, and stores the output produced given the stimuli. A very simple model of the DAC has been separately created and called in the simulation, that in principal behaves like the one on the RFSoC board. The result of the simulation is summarized in the following figure.
 
